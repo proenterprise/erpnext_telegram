@@ -14,7 +14,7 @@ class SentMessages(Document):
 @frappe.whitelist()
 def send_message(message):
 	if message:
-		telegram-send message
+		telegram-send message+""
 	else:
 		msg.print("Nothing to be sent")
 
