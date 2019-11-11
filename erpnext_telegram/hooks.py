@@ -3,12 +3,12 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "erpnext_telegram"
-app_title = "Erpnext Telegram"
-app_publisher = "Adam Dawoodjee"
+app_title = "Erpnext Telegram Integration"
+app_publisher = "Proenterprise Ventures"
 app_description = "ERPNext Telegram Integration"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "adam@erp.co.zm"
+app_email = "info@erp.co.zm"
 app_license = "MIT"
 
 # Includes in <head>
@@ -126,4 +126,3 @@ app_license = "MIT"
 # override_doctype_dashboards = {
 # 	"Task": "erpnext_telegram.task.get_dashboard_data"
 # }
-
