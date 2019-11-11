@@ -4,3 +4,5 @@
 *.swp
 tags
 erpnext_telegram/docs/current
+.ftpconfig
+.ftpignore
