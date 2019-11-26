@@ -1,0 +1,63 @@
+{
+ "creation": "2019-11-23 00:03:42.168348",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "size",
+  "shape",
+  "cream",
+  "occasion",
+  "name_of_recipient",
+  "relationship_to_buyer"
+ ],
+ "fields": [
+  {
+   "fieldname": "size",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Size",
+   "options": "Medium\nSmall\nLarge\nExtra Large\nCup Cake"
+  },
+  {
+   "fieldname": "shape",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Shape",
+   "options": "Rectangle\nCircle\nSquare\nHeart\nShield\nOther"
+  },
+  {
+   "fieldname": "cream",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cream",
+   "options": "Fresh Cream\nButtercream\nFondant\nNutella\nIcing Sugar (Plain)"
+  },
+  {
+   "fieldname": "name_of_recipient",
+   "fieldtype": "Data",
+   "label": "Name of recipient"
+  },
+  {
+   "fieldname": "relationship_to_buyer",
+   "fieldtype": "Data",
+   "label": "Relationship to buyer"
+  },
+  {
+   "fieldname": "occasion",
+   "fieldtype": "Data",
+   "label": "Occasion"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-11-23 01:28:56.121854",
+ "modified_by": "Administrator",
+ "module": "ERPNext Telegram",
+ "name": "Cake Basics",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

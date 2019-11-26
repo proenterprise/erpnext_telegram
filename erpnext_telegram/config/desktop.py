@@ -5,7 +5,7 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Erpnext Telegram",
+			"module_name": "ERPNext Telegram",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",

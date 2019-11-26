@@ -1,0 +1,68 @@
+{
+ "allow_rename": 1,
+ "autoname": "field:topper",
+ "creation": "2019-11-23 01:33:04.858314",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "topper"
+ ],
+ "fields": [
+  {
+   "fieldname": "topper",
+   "fieldtype": "Data",
+   "label": "Topper",
+   "unique": 1
+  }
+ ],
+ "modified": "2019-11-23 01:42:09.993458",
+ "modified_by": "Administrator",
+ "module": "ERPNext Telegram",
+ "name": "Cake Topper",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Item Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Master Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "topper",
+ "track_changes": 1
+}

@@ -1,0 +1,79 @@
+{
+ "creation": "2019-11-22 18:48:54.607430",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "layer_1",
+  "layer_2",
+  "layer_3",
+  "layer_4",
+  "filling",
+  "layer_notes",
+  "num_layers"
+ ],
+ "fields": [
+  {
+   "fieldname": "filling",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Filling",
+   "options": "No Filling\nNuttella\nButtercream\nIcing Sugar\nBanana\nBlackberry\nChocolate\nCaramel\nChocolate-Raspberry\nMocha Chocolate\nLemon\nFrench Vanilla\nPink Raspberry\nStrawberry\nLime\nCappuccino-Tiramisu\nRed Sour Cherry\nItalian Custard \u201cPanna Cotta\u201d\nHazelnut Praline\nWhite Chocolate\nBurnt Sugar and Macadamia Nut\nSalted Caramel\nPassion Fruit\nBurnt Sugar and Rum Coconut"
+  },
+  {
+   "fieldname": "num_layers",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Number of Layers"
+  },
+  {
+   "description": "Provide specifications if necessary. e.g.Vanilla x 2 layers",
+   "fieldname": "layer_notes",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "label": "Layer Notes"
+  },
+  {
+   "fieldname": "layer_1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Layer 1",
+   "options": "Cake Flavor"
+  },
+  {
+   "fieldname": "layer_2",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Layer 2",
+   "options": "Cake Flavor"
+  },
+  {
+   "fieldname": "layer_3",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Layer 3",
+   "options": "Cake Flavor"
+  },
+  {
+   "fieldname": "layer_4",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Layer 4",
+   "options": "Cake Flavor"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-11-24 16:58:35.324932",
+ "modified_by": "Administrator",
+ "module": "ERPNext Telegram",
+ "name": "Sales Order Cake Tier",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
